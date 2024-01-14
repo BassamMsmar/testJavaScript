@@ -2,13 +2,9 @@ let student = "Bassam"
 let ageAhmed = 12
 let ageAli = 18
 let isMarried = true
-
 let color = null
-
 let phoneNumber 
-
 let ages = ageAhmed  + ageAli
-
 let stringAges = String(ages)
 let numberAges = Number(ages)
 
@@ -27,6 +23,18 @@ console.log(typeof  color)
 console.log(typeof  phoneNumber)
 console.log(typeof  stringAges)
 console.log(typeof  numberAges)
+
+
+
+// Numbers
+
+console.log( 1 + 1)
+console.log( 1 + '1')
+console.log( 1 + 1 + '1')
+console.log( '1' + 1 + 1)
+console.log( 1 + Number('1'))
+console.log( 1 + +'1' + 1 )
+console.log( 1 + 1)
 
 
 
