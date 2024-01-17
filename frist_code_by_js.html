@@ -7,10 +7,23 @@
 </head>
 <body>
     <h1 id="name"> Hi Bassam</h1>
+    
+    <div>
+        <button type="button" onclick='document.getElementById("name").innerHTML = "Hi Ahmed"'>Ahmed</button>
+        <button type="button" onclick='document.getElementById("name").innerHTML = "Hi Akrem"'>Akrem</button>
+        <button type="button" onclick='document.getElementById("name").innerHTML = "Hi Bassam"'>Bassam</button>
+        <button type="button" onclick="setname()">Set Your Name</button>
+    </div>
 
-    <button type="button" onclick='document.getElementById("name").innerHTML = "Hi Ahmed"'>Ahmed</button>
-    <button type="button" onclick='document.getElementById("name").innerHTML = "Hi Akrem"'>Akrem</button>
-    <button type="button" onclick='document.getElementById("name").innerHTML = "Hi Bassam"'>Bassam</button>
+    
+    
+    
+    <script>
+        function setname(){
+            let name = prompt('Enter your name : ')
+            document.getElementById("name").innerHTML = `Hi ${name}`
+        }
 
+    </script>
 </body>
 </html>

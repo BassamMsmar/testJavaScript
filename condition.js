@@ -45,7 +45,22 @@ let i2 = 0
 while( i2 <= 10 ){
     console.log(i2)
     i2++
-   
 }
 
 
+for (let i = 10; i>=0; i--){
+    if (i==5){
+        continue
+    }
+    console.log(i)
+}
+
+
+for (let i=1; i<=5; i++){
+    console.log(`---------${i}----------`)
+
+    for (let y=1; y<=12; y++){
+        console.log(`${i} X ${y} = ${i*y}`)
+    }
+    
+}
